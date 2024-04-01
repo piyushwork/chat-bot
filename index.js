@@ -18,5 +18,8 @@ Bot.on("message", async (message) => {
     message.reply("Hello how are you ?");
   }
 });
+Bot.on("message_create", (message) => {
+  console.log(message.body);
+});
 
 Bot.initialize();
