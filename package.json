@@ -1,0 +1,25 @@
+{
+  "name": "blazecode-bot",
+  "version": "1.0.0",
+  "description": "chat bot for whats-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushwork/chat-bot.git"
+  },
+  "author": "Piyush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushwork/chat-bot/issues"
+  },
+  "homepage": "https://github.com/piyushwork/chat-bot#readme",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
